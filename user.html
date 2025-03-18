@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Math Quiz Game</title>
+    <link rel="stylesheet" href="styles2.css"> <!-- Link to external stylesheet -->
+</head>
+<body>
+    <div class="profile-container">
+        <header class="profile-header">
+            <h1>User Profile</h1>
+            <p>Welcome to your Math Quiz Game profile!</p>
+        </header>
+
+        <div class="profile-info">
+            <h2>Personal Information</h2>
+            <div class="info">
+                <div class="info-item">
+                    <strong>Name:</strong> <span id="user-name">John Doe</span>
+                </div>
+                <div class="info-item">
+                    <strong>Email:</strong> <span id="user-email">johndoe@example.com</span>
+                </div>
+                <div class="info-item">
+                    <strong>Level:</strong> <span id="user-level">Intermediate</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="high-scores">
+            <h2>High Scores</h2>
+            <ul>
+                <li><strong>Math Level 1:</strong> 150 points</li>
+                <li><strong>Math Level 2:</strong> 200 points</li>
+                <li><strong>Math Level 3:</strong> 250 points</li>
+            </ul>
+        </div>
+
+        <div class="game-settings">
+            <h2>Game Settings</h2>
+            <div class="settings">
+                <div class="setting-item">
+                    <strong>Sound:</strong>
+                    <span id="sound-setting">On</span>
+                    <button onclick="toggleSound()">Toggle</button>
+                </div>
+                <div class="setting-item">
+                    <strong>Difficulty:</strong>
+                    <span id="difficulty-setting">Medium</span>
+                    <button onclick="changeDifficulty()">Change</button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <button onclick="logout()">Log Out</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript -->
+</body>
+</html>

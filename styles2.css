@@ -1,0 +1,118 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Profile Container */
+.profile-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Header */
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.profile-header p {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+/* Profile Info Section */
+.profile-info {
+    margin-bottom: 30px;
+}
+
+.profile-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.info {
+    list-style: none;
+}
+
+.info-item {
+    margin-bottom: 10px;
+}
+
+.info-item strong {
+    font-weight: bold;
+}
+
+/* High Scores Section */
+.high-scores h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.high-scores ul {
+    list-style-type: none;
+}
+
+.high-scores li {
+    margin-bottom: 10px;
+}
+
+/* Game Settings Section */
+.game-settings h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.settings .setting-item {
+    margin-bottom: 15px;
+}
+
+.setting-item button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.setting-item button:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #c82333;
+}
