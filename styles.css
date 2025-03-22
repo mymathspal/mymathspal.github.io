@@ -42,9 +42,6 @@ body {
    
 }
 
-
-
-
 .container {
     width: 80%;
     margin: 0 auto;
@@ -92,12 +89,12 @@ ul li {
     margin: 6px 0;  /* Reduced margin between list items */
 }
 
-ul li a {
+.topic-head {
     color: #292929;
     text-decoration: none;
 }
 
-ul li a:hover {
+.topic-head:hover {
     color: #ad1b08;
 }
 
