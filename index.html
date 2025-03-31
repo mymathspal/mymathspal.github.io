@@ -3,157 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Topics to maths quiz riddles and True or False questions.">
-    <title>MyMathsPal</title>
+    <meta name="description" content="Mymathspal quiz leaderboard">
+    <title>Math Quiz Leaderboard</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
 </head>
-<header>
-    <div class="nav-bar">
-        <!-- Hamburger Icon -->
-        <i class="fa-solid fa-bars icons"></i>
-
-        <!-- Search Bar -->
-        <div class="search-container">
-            <input 
-                type="text" 
-                id="search-bar" 
-                placeholder="Search topics..." 
-                onkeyup="searchFunction()" 
-            />
-        </div>
-
-        <!-- User Icon -->
-        <a href="user-login/user.html"><i class="fa-solid fa-user fa-xl icons"></i></a>
-    </div>
-</header>
-
 <body>
-    <div class="container">
-        <main>
-            <div class="question-box">
-                <h2 class="section-head"><a href="" class="topic-head">Foundations of Mathematics<i class="fa-solid fa-caret-right fa-fade fa-xl" style="color: #000000;"></i></a></h2>
-                <ul id="foundations">
-                    <li>Sets & Operations</li>
-                    <li>The Real Number System</li>
-                    <li>Algebraic Expressions</li>
-                    <li>Surds</li>
-                    <li>Binary Operations</li>
-                </ul>
-            </div>
-
-            <div class="question-box">
-                <h2 class="section-head"><a href="" class="topic-head">Equations & Inequalities<i class="fa-solid fa-caret-right fa-fade fa-xl" style="color: #000000;"></i></a></h2>
-                <ul id="equations">
-                    <li>Linear Equations & Inequalities</li>
-                    <li>Quadratic Functions</li>
-                    <li>Absolute Value Equations & Inequalities</li>
-                    <li>Simultaneous Equations</li>
-                    <li>Word Problems</li>
-                    <li>Change Of Subject of a Relation</li>
-                    <li>Relations & Functions</li>
-                </ul>
-            </div>
-
-            <div class="question-box">
-                <h2 class="section-head"><a href=""  class="topic-head">Functions & Polynomial Topics<i class="fa-solid fa-caret-right fa-fade fa-xl" style="color: #000000;"></i></a></h2>
-                <ul id="functions">
-                    <li>Polynomial Functions</li>
-                    <li>Rational Functions</li>
-                    <li>Imaginary Numbers</li>
-                    <li>Linear Programming</li>
-                    <li>Number Bases</li>
-                    <li>Percentages</li>
-                </ul>
-            </div>
-
-            <div class="question-box">
-                <h2 class="section-head"><a href=""  class="topic-head">Geometry & Coordinate Geometry<i class="fa-solid fa-caret-right fa-fade fa-xl" style="color: #000000;"></i></a></h2>
-                <ul id="geometry">
-                    <li>Plane Geometry</li>
-                    <li>Ratio & Proportion</li>
-                    <li>Coordinate Geometry 1</li>
-                    <li>Coordinate Geometry 2 & 3</li>
-                </ul>
-            </div>
-
-            <div class="question-box">
-                <h2 class="section-head"><a href="" class="topic-head">Advanced Algebra & Calculus<i class="fa-solid fa-caret-right fa-fade fa-xl" style="color: #000000;"></i></a></h2>
-                <ul id="algebra">
-                    <li>Indices & Logarithms</li>
-                    <li>Binomial Theorem</li>
-                    <li>Sequences & Series</li>
-                    <li>Trigonometry</li>
-                    <li>Differentiation</li>
-                    <li>Integration</li>
-                </ul>
-            </div>
-
-            <div class="question-box">
-                <h2 class="section-head"><a href="" class="topic-head">Matrices, Vectors & Mechanics<i class="fa-solid fa-caret-right fa-fade fa-xl" style="color: #000000;"></i></a></h2>
-                <ul id="matrices">
-                    <li>Matrices & Linear Transformation</a></li>
-                    <li>Vectors</li>
-                    <li>Mechanics</li>
-                    <li>Kinematics</li>
-                </ul>
-            </div>
-
-            <div class="question-box">
-                <h2 class="section-head"><a href="" class="topic-head">Advanced Topics & Logical Thinking<i class="fa-solid fa-caret-right fa-fade fa-xl" style="color: #000000;"></i></a></h2>
-                <ul id="advanced-topics">
-                    <li>Modulo Arithmetic</li>
-                    <li>Permutation & Combination</li>
-                    <li>Statistics & Probability</li>
-                    <li>Variation</li>
-                    <li>Logical Reasoning</li>
-                </ul>
-            </div>
-
-            <div class="question-box">
-                <h2 class="section-head"><a href="" class="topic-head">True OR False :)<i class="fa-solid fa-caret-right fa-fade fa-xl" style="color: #000000;"></i></a></h2>
-                <ul id="true-false">
-                    <li>Foundation of Mathematics</li>
-                    <li>Functions & Polynomial Topics</li>
-                    <li>Advanced Algebra & Calculus</li>
-                    <li>Equations & Inequalities</li>
-                    <li>Geometry & Coordinate Geometry</li>
-                    <li>Matrices, Vectors & Mechanics</li>
-                    <li>Advanced Topics & Logical Thinking</li>
-                </ul>
-            </div>
-        </main>
-
-        <footer>
-            <p>&copy; 2025 MyMathsPal</p>
-        </footer>
+    <div class="leaderboard-container">
+        <h1>Leaderboard</h1>
+        <table id="leaderboard">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Player</th>
+                    <th>XP</th>
+                    <th>School</th> <!-- New column for School -->
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Player data will be dynamically inserted here -->
+            </tbody>
+        </table>
     </div>
 
-    <script>
-        
-        // Function to filter topics based on search input
-        function searchFunction() {
-            const query = document.getElementById("search-bar").value.toLowerCase();
-            
-            // Get all list items inside the <ul> tags
-            const allLists = document.querySelectorAll('ul');
-
-            // Loop through all the lists
-            allLists.forEach((list) => {
-                const items = list.querySelectorAll('li');
-                
-                items.forEach((item) => {
-                    const text = item.textContent.toLowerCase();
-                    if (text.includes(query)) {
-                        item.style.display = '';  // Show item
-                    } else {
-                        item.style.display = 'none';  // Hide item
-                    }
-                });
-            });
-        }
-       
-    </script>
+    <script src="script.js"></script>
 </body>
-
 </html>
