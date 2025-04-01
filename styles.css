@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.9;
     background-color: #f4f4f4;
     color: #333;
     margin-top: 80px;
@@ -92,8 +92,8 @@ ul li {
 }
 
 ul li a {
-    color: #292929;
-    text-decoration: none;
+     color: #4a4ea1;
+   /*text-decoration: none;*/
 }
 
 ul li a:hover {
