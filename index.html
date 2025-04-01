@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Topics to quiz riddles and True or False questions.">
+    <title>Mathematics Topics Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<header>
+    <div class="nav-bar">
+        <!-- Hamburger Icon -->
+        <i class="fa-solid fa-bars icons"></i>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input 
+                type="text" 
+                id="search-bar" 
+                placeholder="Search topics..." 
+                onkeyup="searchFunction()" 
+            />
+        </div>
+
+        <!-- User Icon -->
+        <a href="user.html"><i class="fa-solid fa-user fa-xl icons" id="user-icon"></i></a>
+    </div>
+</header>
+
+<body>
+    <div class="container">
+        <main>
+            <div class="question-box">
+                <h2 class="section-head">Foundations of Mathematics</h2>
+                <ul id="foundations">
+                    <li><a href="">Sets & Operations</a></li>
+                    <li><a href="">The Real Number System</a></li>
+                    <li><a href="">Algebraic Expressions</a></li>
+                    <li><a href="">Surds</a></li>
+                    <li><a href="">Binary Operations</a></li>
+                </ul>
+            </div>
+
+            <div class="question-box">
+                <h2 class="section-head">Equations & Inequalities</h2>
+                <ul id="equations">
+                    <li><a href="">Linear Equations & Inequalities</a></li>
+                    <li><a href="">Quadratic Functions</a></li>
+                    <li><a href="">Absolute Value Equations & Inequalities</a></li>
+                    <li><a href="">Simultaneous Equations</a></li>
+                    <li><a href="">Word Problems</a></li>
+                    <li><a href="">Change Of Subject of a Relation</a></li>
+                    <li><a href="">Relations & Functions</a></li>
+                </ul>
+            </div>
+
+            <div class="question-box">
+                <h2 class="section-head">Functions & Polynomial Topics</h2>
+                <ul id="functions">
+                    <li><a href="">Polynomial Functions</a></li>
+                    <li><a href="">Rational Functions</a></li>
+                    <li><a href="">Imaginary Numbers</a></li>
+                    <li><a href="">Linear Programming</a></li>
+                    <li><a href="">Number Bases</a></li>
+                    <li><a href="">Percentages</a></li>
+                </ul>
+            </div>
+
+            <div class="question-box">
+                <h2 class="section-head">Geometry & Coordinate Geometry</h2>
+                <ul id="geometry">
+                    <li><a href="">Plane Geometry</a></li>
+                    <li><a href="">Ratio & Proportion</a></li>
+                    <li><a href="">Coordinate Geometry 1</a></li>
+                    <li><a href="">Coordinate Geometry 2 & 3</a></li>
+                </ul>
+            </div>
+
+            <div class="question-box">
+                <h2 class="section-head">Advanced Algebra & Calculus</h2>
+                <ul id="algebra">
+                    <li><a href="">Indices & Logarithms</a></li>
+                    <li><a href="">Binomial Theorem</a></li>
+                    <li><a href="">Sequences & Series</a></li>
+                    <li><a href="">Trigonometry</a></li>
+                    <li><a href="">Differentiation</a></li>
+                    <li><a href="">Integration</a></li>
+                </ul>
+            </div>
+
+            <div class="question-box">
+                <h2 class="section-head">Matrices, Vectors & Mechanics</h2>
+                <ul id="matrices">
+                    <li><a href="">Matrices & Linear Transformation</a></li>
+                    <li><a href="">Vectors</a></li>
+                    <li><a href="">Mechanics</a></li>
+                    <li><a href="">Kinematics</a></li>
+                </ul>
+            </div>
+
+            <div class="question-box">
+                <h2 class="section-head">Advanced Topics & Logical Thinking</h2>
+                <ul id="advanced-topics">
+                    <li><a href="">Modulo Arithmetic</a></li>
+                    <li><a href="">Permutation & Combination</a></li>
+                    <li><a href="">Statistics & Probability</a></li>
+                    <li><a href="">Variation</a></li>
+                    <li><a href="">Logical Reasoning</a></li>
+                </ul>
+            </div>
+
+            <div class="question-box">
+                <h2 class="section-head">True OR False :)</h2>
+                <ul id="true-false">
+                    <li><a href="">Foundation of Mathematics</a></li>
+                    <li><a href="">Functions & Polynomial Topics</a></li>
+                    <li><a href="">Advanced Algebra & Calculus</a></li>
+                    <li><a href="">Equations & Inequalities</a></li>
+                    <li><a href="">Geometry & Coordinate Geometry</a></li>
+                    <li><a href="">Matrices, Vectors & Mechanics</a></li>
+                    <li><a href="">Advanced Topics & Logical Thinking</a></li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 MyMathsPal</p>
+        </footer>
+    </div>
+
+    <script>
+        
+        // Function to filter topics based on search input
+        function searchFunction() {
+            const query = document.getElementById("search-bar").value.toLowerCase();
+            
+            // Get all list items inside the <ul> tags
+            const allLists = document.querySelectorAll('ul');
+
+            // Loop through all the lists
+            allLists.forEach((list) => {
+                const items = list.querySelectorAll('li');
+                
+                items.forEach((item) => {
+                    const text = item.textContent.toLowerCase();
+                    if (text.includes(query)) {
+                        item.style.display = '';  // Show item
+                    } else {
+                        item.style.display = 'none';  // Hide item
+                    }
+                });
+            });
+        }
+       
+    </script>
+</body>
+
+</html>
