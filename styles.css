@@ -29,7 +29,7 @@ body {
 
 /* Style for the search bar */
 .search-container input {
-    width: 400px;
+    width: 300px;
     padding: 10px; 
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -94,6 +94,7 @@ ul li {
 ul li a {
      color: #171d88;
      font-size: 1.49rem;
+     padding: 10px;
    
 }
 
@@ -133,7 +134,7 @@ footer {
   }
   
   .search-container input {
-    width: 280px;
+    width: 200px;
     padding: 7px; 
     border-radius: 5px;
     border: 1px solid #ccc;
