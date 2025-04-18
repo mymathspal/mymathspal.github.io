@@ -14,31 +14,35 @@ body {
 
 /* Style for the nav bar */
 .nav-bar {
-    background-color: #333; /* Example background color */
-    padding: 10px 20px; /* Add padding */
-    position: fixed; /* Fix the navbar to the top of the page */
-    top: 0; /* Align it to the top */
-    left: 0; /* Align it to the left */
-    width: 100%; /* Make it take the full width */
-    z-index: 1000; /* Ensure it appears above other elements */
-    display: flex; /* Use flexbox for alignment */
-    justify-content: space-between; /* Space out items evenly */
-    align-items: center; /* Vertically center the items */
+    background-color: #333; 
+    padding: 10px 20px; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    /*
+    display: flex; 
+    justify-content: space-between;  */
+    align-items: center; 
 }
 
 /* Style for the search bar */
 .search-container input {
-    width: 300px;
-    padding: 10px; /* Adjust padding for better alignment */
+    width: 400px;
+    padding: 10px; 
     border-radius: 5px;
     border: 1px solid #ccc;
-    margin-left: 20px; /* Add some space between icons and the search bar */
+    margin-left: 20px; 
+    font-size: 1.3rem;
 }
+
+
 
 /* Optional: Style for the icons */
 .icons {
-    color: #ffffff; /* Icon color */
-    cursor: pointer; /* Make the icons clickable */
+    color: #ffffff; 
+    cursor: pointer; 
 }
 
 
@@ -57,10 +61,6 @@ header {
     margin-bottom: 30px;
 }
 
-h1 {
-    font-size: 2.5rem;
-    color: #333;
-}
 
 p {
     font-size: 1.2rem;
@@ -68,17 +68,17 @@ p {
 }
 
 .question-box {
-    margin-bottom: 20px;  /* Reduce space between boxes */
-    padding: 10px;  /* Reduced padding */
+    margin-bottom: 20px;
+    padding: 20px; 
     background-color: #e9e9e9;
     border-radius: 8px;
-    max-width: 600px;  /* Set a max width */
-    margin-left: auto;  /* Center the box */
-    margin-right: auto; /* Center the box */
+    max-width: 600px;  
+    margin-left: auto;  
+    margin-right: auto; 
 }
 
 .section-head {
-    font-size: 1.6rem;  /* Reduced heading font size */
+    font-size: 1.9rem; 
     margin-bottom: 10px;
     color: #333;
 }
@@ -88,12 +88,13 @@ ul {
 }
 
 ul li {
-    margin: 6px 0;  /* Reduced margin between list items */
+    margin: 6px 0; 
 }
 
 ul li a {
-     color: #4a4ea1;
-   /*text-decoration: none;*/
+     color: #171d88;
+     font-size: 1.49rem;
+   
 }
 
 ul li a:hover {
@@ -118,11 +119,11 @@ footer {
     }
 
     .question-box {
-        padding: 8px; /* Reduced padding */
+        padding: 8px; 
     }
 
     .section-head {
-        font-size: 1.4rem; /* Reduced heading font size */
+        font-size: 1.55rem; 
     }
 }
 
@@ -133,7 +134,7 @@ footer {
   
   .search-container input {
     width: 280px;
-    padding: 7px; /* Adjust padding for better alignment */
+    padding: 7px; 
     border-radius: 5px;
     border: 1px solid #ccc;
 }
