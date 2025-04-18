@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.5;
+    line-height: 1.9;
     background-color: #f4f4f4;
     color: #333;
     margin-top: 80px;
@@ -29,7 +29,7 @@ body {
 
 /* Style for the search bar */
 .search-container input {
-    width: 300px;
+    width: 30px;
     padding: 10px; 
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -94,7 +94,6 @@ ul li {
 ul li a {
      color: #171d88;
      font-size: 1.49rem;
-     line-height: 1.7;
 }
 
 ul li a:hover {
