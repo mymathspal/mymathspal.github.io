@@ -1,45 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Math Quiz Game</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="one.png">
-</head>
-<body>
-    <div class="quiz-container">
-        <div id="progress-container">
-            <p>Question <span id="question-number">1</span> of <span id="total-questions">5</span></p>
-            <div id="progress-bar">
-                <div id="progress"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Quiz question page for mathematics topics.">
+        <link rel="stylesheet" href="styles.css">
+        <title><!-- fetch title from php --></title>
+    </head>
+    <body>
+        <div class="quiz-container">
+            <button><a href="../index.html">HOME</a></button> <span>QUESTION 1 OF 5    </span>
+            <div class="question-box">
+                <p class="first-question">the first question is ..</p>
+                <p class="second-question">the second question is ...</p>
+                <p class="third-question">the third question is ...</p>
+                <p class="fourth-question">the fourth question / clue is ...</p>
+                <p class="fifth-question">the fifth question / clue is ...</p>
+                <p class="six-question">the six question / clue is ...</p>
             </div>
-        </div>
 
-        <div id="question-container">
-            <p id="question"></p>
-        </div>
-
-        <input type="number" id="answer-input" placeholder="Your answer" />
-        <button id="submit-btn">Submit</button>
-
-        <div id="result-message"></div>
-        <div id="correct-answer" style="color: red; display: none;"></div>
-
-        <div id="end-screen" style="display: none;">
-            <p id="score-message"></p>
-            <div id="celebration" style="display: none; color: #4CAF50; font-size: 24px;">
-                🎉 Congratulations! You got them all right! 🎉
+            <div class="answer-box">
+                <input type="text" id="answer" placeholder="Type your answer here...">
             </div>
-<div id="encouragement" style="font-size: 18px; color: #f39c12; margin-top: 20px;"></div>
 
-            <button id="restart-btn">Restart Quiz</button>
-            <button id="home-btn"><a href="">Go to Home</a></button>
+            <button>  ADD CLUE 1..  </button>
+            <button>  SUBMIT  </button>
+            <p>  correct / wrong ... the answer is...  </p>
         </div>
-    </div>
-
-    <script src="scripts.js"></script>
-</body>
+        
+    </body>
 </html>
