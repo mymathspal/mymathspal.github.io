@@ -7,14 +7,14 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     color: #333;
     margin-top: 80px;
 }
 
 /* Style for the nav bar */
 .nav-bar {
-    background-color: #333; 
+    background-color: #a10303; 
     padding: 10px 20px; 
     position: fixed; 
     top: 0; 
@@ -52,7 +52,8 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     border-radius: 8px;
 }
 
@@ -64,13 +65,14 @@ header {
 
 p {
     font-size: 1.2rem;
-    color: #666;
+    color: #e0d8d8;
 }
 
 .question-box {
     margin-bottom: 20px;
     padding: 20px; 
-    background-color: #e9e9e9;
+    background: #d1d0d9;
+    background: linear-gradient(90deg, rgba(209, 208, 217, 1) 55%, rgba(150, 150, 171, 1) 100%, rgba(0, 212, 255, 1) 100%);
     border-radius: 8px;
     max-width: 600px;  
     margin-left: auto;  
@@ -78,7 +80,7 @@ p {
 }
 
 .section-head {
-    font-size: 1.9rem; 
+    font-size: 2.3rem; 
     margin-bottom: 10px;
     color: #333;
 }
@@ -99,6 +101,8 @@ ul li a {
 
 ul li a:hover {
     color: #ad1b08;
+    /* Optional: Add a hover effect */
+   
 }
 
 footer {
