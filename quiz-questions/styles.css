@@ -3,22 +3,82 @@
     padding: 14px;
 }
 
+body{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+
 .quiz-container {
-    border: 2px solid #000000;
     margin: 20px auto;
 }
 
 .question-box {
-   border: 2px solid #000000;
+   /*border: 2px solid #000000;*/
    margin: 15px auto;
 }
 
+a{
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #efeff0;
+    text-decoration: none;
+}
+
+.home-button {
+    background-color: #ee0a0a;
+    border: none;
+}
+   
+.number{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #efe9e9;
+}
+
+.fnum,.snum{
+    color:#00f400
+}
+
 .answer-box {
-    border: 2px solid #000000;
+   /* border: 2px solid #000000; */
     padding:20px;
     margin-bottom: 15px;
 }
 
+.answer-input{
+    width: 100%;
+    padding: 15px;
+    font-size: 1.07rem;
+    font-weight: bold;
+    color: #000000;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
 p{
-    background-color: aquakln;
+    background-color: #F0F0F0;
+    font-size: 1.08rem;
+    background: #d1d0d9;
+    background: linear-gradient(90deg, rgba(209, 208, 217, 1) 79%, rgba(150, 150, 171, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+
+.clue, .submit{
+    font-size: 1.05rem;
+    font-weight: bold;
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.clue {
+    background-color: #ee0a0a;
+    border: none;
+}
+
+.submit {
+    background-color: #0aee0a;
+    border: none;
 }

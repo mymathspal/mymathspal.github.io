@@ -12,6 +12,14 @@ body {
     margin-top: 80px;
 }
 
+.intro-box{
+    color:#ffffff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 /* Style for the nav bar */
 .nav-bar {
     background-color: #a10303; 
@@ -52,7 +60,6 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    background: #020024;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     border-radius: 8px;
 }
@@ -71,7 +78,6 @@ p {
 .question-box {
     margin-bottom: 20px;
     padding: 20px; 
-    background: #d1d0d9;
     background: linear-gradient(90deg, rgba(209, 208, 217, 1) 55%, rgba(150, 150, 171, 1) 100%, rgba(0, 212, 255, 1) 100%);
     border-radius: 8px;
     max-width: 600px;  
