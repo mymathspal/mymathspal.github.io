@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     margin: 0;
     padding: 0;
 }
@@ -9,10 +9,10 @@ body {
     width: 60%;
     margin: 50px auto;
     padding: 20px;
-    background-color: white;
-    border-radius: 8px;
+    background: #d1d0d9;
+    background: linear-gradient(90deg, rgba(209, 208, 217, 1) 79%, rgba(150, 150, 171, 1) 100%, rgba(0, 212, 255, 1) 100%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
- 
+    border-radius: 8px;
 }
 
 h1 {
