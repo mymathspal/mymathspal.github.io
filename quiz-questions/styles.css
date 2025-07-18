@@ -63,13 +63,13 @@ a{
 p{
     background-color: #F0F0F0;
     font-size: 1.15rem;
-    background: #d1d0d9;
+    background: #000000;
     background: linear-gradient(90deg, rgba(209, 208, 217, 1) 79%, rgba(150, 150, 171, 1) 100%, rgba(0, 212, 255, 1) 100%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
-.clue, .submit{
+.clue-btn, .submit{
     font-size: 1.05rem;
     font-weight: bold;
     width: 100%;
@@ -79,9 +79,10 @@ p{
     cursor: pointer;
 }
 
-.clue {
+.clue:not(p) {
     background-color: #810f0f;
     border: none;
+    color: #ffffff;
 }
 
 .submit {

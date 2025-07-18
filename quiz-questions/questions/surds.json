@@ -1,0 +1,26 @@
+[
+  {
+    "number": "1",
+    "clue": [
+      "There is nothing absurd about me as may be suggested by my name.",
+      "I am generally an irrational number or expression.",
+      "Square root sign is a regular companion of me.",
+      "I may be added, subtracted, multiplied or divided.",
+      "Division by me always involves rationalization.",
+      "You get the idea? An example of me is 3 + √2. Who am I?"
+    ],
+    "answer": "SURD"
+  },
+  {
+    "number": "2",
+    "clue": [
+      "Part of me is a regular quadrilateral.",
+      "Part of me is the solution of an equation or the invisible part of a plant.",
+      "I am a radical.",
+      "As an exponential, my index is always ½.",
+      "For 4, I am 2 and for 49, I am 7.",
+      "Who am I?"
+    ],
+    "answer": "SQUARE ROOT"
+  }
+]

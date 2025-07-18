@@ -1,0 +1,44 @@
+[
+  {
+    "number": "riddle 1",
+    "clue": [
+      "Of all sets I am definitely unique.",
+      "I am a subset of every set.",
+      "My cardinal number is zero and I am the identity for union of sets.",
+      "Remember empty barrels make the most noise. Who am I?"
+    ],
+    "answer": "Empty set or Null set"
+  },
+  {
+    "number": "riddle 2",
+    "clue": [
+      "So far as diagrams are concerned, I am quite famous.",
+      "I am used to solve problems.",
+      "I am used to represent sets, elements and subsets. Who am I?"
+    ],
+    "answer": "Venn Diagram"
+  },
+  {
+    "number": "riddle 3",
+    "clue": [
+      "We are generally a pair of sets.",
+      "If we were human, we will never see eye to eye.",
+      "Put simply we have nothing in common.",
+      "Our intersection is always empty.",
+      "Who are we?"
+    ],
+    "answer": "Disjoint sets"
+  },
+  {
+    "number": "riddle 4",
+    "clue": [
+      "I am a binary operation.",
+      "I am in a way a meeting of minds.",
+      "I combine two sets and normally produce a smaller set.",
+      "I am where two curves meet.",
+      "I am a collection of common elements of two or more sets.",
+      "Who am I?"
+    ],
+    "answer": "INTERSECTION"
+  }
+]

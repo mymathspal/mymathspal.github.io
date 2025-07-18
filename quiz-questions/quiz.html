@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Quiz question page for mathematics topics.">
         <link rel="stylesheet" href="styles.css">
-        <title><!-- fetch title from php --></title>
+        <title>dynamic header</title>
     </head>
     <body>
         <div class="quiz-container">
@@ -32,4 +33,237 @@
         </div>
         
     </body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Quiz question page for mathematics topics." />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Math Quiz</title>
+  <style>
+    .overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      text-align: center;
+      padding: 20px;
+    }
+    .hidden {
+      display: none;
+    }
+    .feedback {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    
+    #feedbackOverlay.correct {
+      background-color: rgba(0, 128, 0, 0.85); /* green overlay */
+    }
+    #feedbackOverlay.wrong {
+      background-color: rgba(128, 0, 0, 0.85); /* red overlay */
+    }
+  </style>
+</head>
+<body>
+
+<div class="overlay" id="rulesOverlay">
+  <h2>Quiz Rules</h2>
+  <ul>
+    <li>You will be given a riddle with clues.</li>
+    <li>You can reveal up to 6 clues.</li>
+    <li>Enter your answer and click submit.</li>
+    <li>Your score will be shown at the end.</li>
+  </ul>
+  <button id="startBtn">Start Quiz</button>
+</div>
+
+<audio id="nsmqAudio" src="../music/nsmq.mp3"></audio>
+<audio id="correctSound" src="../music/correct.mp3"></audio>
+<audio id="wrongSound" src="../music/wrong.mp3"></audio>
+
+<div class="quiz-container">
+  <button class="home-button"><a href="../index.html">HOME</a></button>
+  <span class="number">QUESTION <span class="fnum">1</span> OF <span class="snum">1</span></span>
+</div>
+
+<div class="question-box" id="questionBox"></div>
+
+<div id="answer-box">
+  <input type="text" id="answer" class="answer-input" placeholder="Type your answer here..." />
+</div>
+
+<div class="clue-submit">
+  <button id="addClueBtn" class="clue clue-btn">ADD CLUE 1</button>
+  <button class="submit" id="submitBtn">SUBMIT</button>
+</div>
+
+<div class="overlay hidden" id="feedbackOverlay">
+  <p id="feedbackMessage"></p>
+  <button onclick="nextQuestion()" id="nextBtn">Next</button>
+</div>
+
+<script>
+let riddles = [
+  {
+    clue: [
+      "I am a number computed from the coefficients of a quadratic equation.",
+      "I am associated with the roots of a quadratic equation.",
+      "When I am positive, the equation has two real roots.",
+      "When I vanish, the equation has exactly one real root.",
+      "When I am negative, the equation has no real root.",
+      "My name suggests I discriminate somehow."
+    ],
+    answer: "DISCRIMINANT"
+  },
+  {
+    clue: [
+      "I am a process for solving a quadratic equation.",
+      "Factorization is definitely out of the window.",
+      "I give rise to the almighty quadratic formula.",
+      "I involve finding a complete square."
+    ],
+    answer: "COMPLETING THE SQUARE"
+  },
+  {
+    clue: [
+      "I am a formula.",
+      "There are so many formulas in Mathematics.",
+      "I am an algorithm for solving an equation.",
+      "I am a formula for solving a quadratic equation."
+    ],
+    answer: "QUADRATIC FORMULA"
+  }
+];
+
+let currentQuestion = 0;
+let currentClueIndex = 0;
+let score = 0;
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("startBtn").addEventListener("click", startQuiz);
+  document.getElementById("addClueBtn").addEventListener("click", addClue);
+  document.getElementById("submitBtn").addEventListener("click", submitAnswer);
+});
+
+function startQuiz() {
+  document.getElementById('rulesOverlay').classList.add('hidden');
+  document.getElementById('nsmqAudio').play();
+  loadQuestion();
+}
+
+function loadQuestion() {
+  const questionBox = document.getElementById('questionBox');
+  questionBox.innerHTML = '';
+  currentClueIndex = 0;
+  const clues = riddles[currentQuestion].clue;
+  // Load first 3 clues (or less)
+  for (let i = 0; i < 3 && i < clues.length; i++) {
+    questionBox.innerHTML += `<p class="clue"><span class="clue-num">Clue ${i + 1}:</span> ${clues[i]}</p>`;
+    currentClueIndex++;
+  }
+  document.querySelector('.fnum').textContent = currentQuestion + 1;
+  document.querySelector('.snum').textContent = riddles.length;
+  updateAddClueBtn();
+  document.getElementById('answer').value = '';
+}
+
+function updateAddClueBtn() {
+  const clues = riddles[currentQuestion].clue;
+  const addClueBtn = document.getElementById('addClueBtn');
+  if (currentClueIndex >= clues.length) {
+    addClueBtn.textContent = "NO CLUE";
+    addClueBtn.disabled = true;
+  } else {
+    addClueBtn.textContent = `ADD CLUE ${currentClueIndex + 1}`;
+    addClueBtn.disabled = false;
+  }
+}
+
+function addClue() {
+  const clues = riddles[currentQuestion].clue;
+  if (currentClueIndex < clues.length) {
+    const questionBox = document.getElementById('questionBox');
+    questionBox.innerHTML += `<p class="clue"><span class="clue-num">Clue ${currentClueIndex + 1}:</span> ${clues[currentClueIndex]}</p>`;
+    currentClueIndex++;
+    updateAddClueBtn();
+  }
+}
+
+function submitAnswer() {
+  const userAnswer = document.getElementById('answer').value.trim().toUpperCase();
+  const correctAnswer = riddles[currentQuestion].answer.toUpperCase();
+  const overlay = document.getElementById('feedbackOverlay');
+  const feedback = document.getElementById('feedbackMessage');
+
+  if (!userAnswer) {
+    alert("Please enter an answer before submitting.");
+    return;
+  }
+
+  if (userAnswer === correctAnswer) {
+    document.getElementById('correctSound').play();
+    feedback.textContent = "Correct! Well done.";
+    overlay.classList.remove('wrong');
+    overlay.classList.add('correct');
+    score++;
+  } else {
+    document.getElementById('wrongSound').play();
+    feedback.textContent = `Wrong! The correct answer was: ${correctAnswer}`;
+    overlay.classList.remove('correct');
+    overlay.classList.add('wrong');
+  }
+
+  overlay.classList.remove('hidden');
+}
+
+function nextQuestion() {
+  currentQuestion++;
+  document.getElementById('feedbackOverlay').classList.add('hidden');
+  if (currentQuestion < riddles.length) {
+    loadQuestion();
+  } else {
+    showFinalScore();
+  }
+}
+
+
+function showFinalScore() {
+  const overlay = document.getElementById('feedbackOverlay');
+  const feedback = document.getElementById('feedbackMessage');
+
+  feedback.innerHTML = `Quiz Completed!<br>Your score is ${score} out of ${riddles.length}.`;
+  overlay.classList.remove('hidden');
+
+  // Hide the Next button on final screen
+  document.getElementById('nextBtn').style.display = 'none';
+
+  // Disable and hide the Add Clue button (if still visible)
+  const addClueBtn = document.getElementById('addClueBtn');
+  addClueBtn.disabled = true;
+  addClueBtn.style.display = 'none';
+
+  // Stop and reset the quiz music
+  const audio = document.getElementById('nsmqAudio');
+  audio.pause();
+  audio.currentTime = 0;
+
+  // Reset any green/red feedback colors and set overlay background to a neutral color
+  overlay.classList.remove('correct', 'wrong');
+  overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.8);'; // dark blue overlay for final screen
+}
+
+</script>
+
+</body>
 </html>

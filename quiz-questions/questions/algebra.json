@@ -1,0 +1,84 @@
+[
+  {
+    "number": "1",
+    "clue": [
+      "I have something to do with Friction.",
+      "I have something to do with Collision by way of Restitution.",
+      "I am equally associated with thermal expansion.",
+      "I am the numerical part of a term in an algebraic expression.",
+      "You will find me in a Binomial Expansion.",
+      "For the term 10x2y3, I am 10. Who am I?"
+    ],
+    "answer": "COEFFICIENT"
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am a branch of Mathematics of Arabic origin.",
+      "I am an Arithmetic involving letters and numbers.",
+      "I involve equations, formulae, identities, operations and expressions.",
+      "I am a problem in which one or more quantity is unknown.",
+      "You can say I am a generalized Arithmetic.",
+      "Who am I?"
+    ],
+    "answer": "ALGEBRA"
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I involve algebraic expressions.",
+      "I take the form of an algebraic expression equal to zero.",
+      "Examples of me are linear and quadratic equations.",
+      "Who am I?"
+    ],
+    "answer": "ALGEBRAIC EQUATION"
+  },
+  {
+    "number": "4",
+    "clue": [
+      "I am something that stands for something else.",
+      "I am a letter or character used to represent a mathematical idea.",
+      "I may be used to represent an object, an operation, a relation or a function.",
+      "An example of me is the Roman symbol M representing a thousand.",
+      "For a function y = f(x), I am the letter f.",
+      "Who am I?"
+    ],
+    "answer": "SYMBOL"
+  },
+  {
+    "number": "5",
+    "clue": [
+      "I am the basic component of a polynomial.",
+      "I am a simple example of an algebraic expression.",
+      "I consist of numbers and letters.",
+      "In Biology I will be a monoculture.",
+      "Two of me add up to a binomial and three of me a trinomial.",
+      "I am a single term. Who am I?"
+    ],
+    "answer": "MONOMIAL"
+  },
+  {
+    "number": "6",
+    "clue": [
+      "In an algebraic expression, I am the numerical part of a term.",
+      "Normally, I am a constant or just a number.",
+      "I am a constant of proportionality between two quantities of different dimensions.",
+      "In Physics, I am associated with expansion and friction.",
+      "I have something to do with restitution in a collision of particles.",
+      "You will find me in a binomial expansion. Who am I?"
+    ],
+    "answer": "COEFFICIENT"
+  },
+  {
+    "number": "7",
+    "clue": [
+      "I am a process in Mathematics, especially in Algebra.",
+      "For numbers I involve prime numbers.",
+      "For polynomial expressions, I involve linear and/or quadratic polynomials.",
+      "I involve a product of several terms.",
+      "I am the opposite of Expansion.",
+      "Part of me is a Factor and the other part sounds like a Station. Who am I?"
+    ],
+    "answer": "FACTORISATION"
+  }
+]

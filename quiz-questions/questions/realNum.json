@@ -1,0 +1,805 @@
+[
+  {
+    "number": "1",
+    "clue": [
+      "I am a single digit number and I am odd.",
+      "The sum of the digits of my square is equal to me.",
+      "Mind you I am myself a square.",
+      "I am the last digit in the decimal system.",
+      "I determine a nonagon. Who am I?"
+    ],
+    "answer": "9"
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am a three-digit number and I am an exact square.",
+      "I am an odd number.",
+      "My first two digits are identical and are the square of the base of the binary number system.",
+      "My last digit is an identity.",
+      "Who am I?"
+    ],
+    "answer": "441"
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I am a two digit odd number.",
+      "I have exactly two prime factors whose sum is 18 and difference is 4.",
+      "My digits form an identical pair.",
+      "Remember the seven times table or the eleven times table and you should get me.",
+      "Who am I?"
+    ],
+    "answer": "77"
+  },
+  {
+    "number": "4",
+    "clue": [
+      "I am a four-digit even number with even digits.",
+      "My first and last digits are identical.",
+      "My second and third digits are also identical.",
+      "My first digit is a prime.",
+      "My second digit is the square of the first digit.",
+      "Who am I?"
+    ],
+    "answer": "2442"
+  },
+  {
+    "number": "5",
+    "clue": [
+      "I am a three-digit number between 300 and 400.",
+      "The sum of my digits is 15.",
+      "All my digits are prime numbers and consecutive odd numbers.",
+      "My middle digit is the average of my first and last digits.",
+      "Who am I?"
+    ],
+    "answer": "357"
+  },
+  {
+    "number": "6",
+    "clue": [
+      "I am a two-digit number.",
+      "I am a square of a cube and a cube of a square.",
+      "At the base of it all is the only even prime number.",
+      "The sum of my digits is ten and their difference is the base of the binary system.",
+      "My digits are successive even numbers.",
+      "Who am I?"
+    ],
+    "answer": "64"
+  },
+  {
+    "number": "7",
+    "clue": [
+      "I am a two-digit number.",
+      "I have three prime factors which are successive prime numbers.",
+      "Half of me is the product of two of the prime factors.",
+      "The sum and the difference of my digits are both three.",
+      "I am a multiple of ten. Who am I?"
+    ],
+    "answer": "30"
+  },
+  {
+    "number": "8",
+    "clue": [
+      "I am a three-digit number between 100 and 200.",
+      "I am a square of an odd 2-digit prime number.",
+      "The sum of my digits is 16.",
+      "My last 2 digits differ by 3.",
+      "My first digit is the first natural number.",
+      "Who am I?"
+    ],
+    "answer": "169"
+  },
+  {
+    "number": "9",
+    "clue": [
+      "I am a one-digit number in the prime of my numerical life.",
+      "Squaring me gives a two-digit number whose digits are both squares.",
+      "The digits of my square are squares of consecutive primes.",
+      "The sum of the digits of my square is 13.",
+      "I am one more than half a dozen. Who am I?"
+    ],
+    "answer": "7"
+  },
+  {
+    "number": "10",
+    "clue": [
+      "I am a simple number and an integer.",
+      "There is nothing odd about me but I am quite special.",
+      "I am a prime and the base of a number system.",
+      "As an exponent, I am associated with squares and square roots.",
+      "I am equal to my factorial even though I am not an identity.",
+      "In a way, I am the Vice-President. Who am I?"
+    ],
+    "answer": "2"
+  },
+  {
+    "number": "11",
+    "clue": [
+      "I am a 3-digit number and the square of an odd prime.",
+      "The sum of my digits is 19 and the sum of the first two digits is 10.",
+      "My first digit is the base of the binary system.",
+      "My second digit is an even cube.",
+      "My last digit is an odd square. Who am I?"
+    ],
+    "answer": "289"
+  },
+  {
+    "number": "12",
+    "clue": [
+      "I am a two-digit number.",
+      "The sum of my digits is the base of the decimal number system.",
+      "Both digits are primes and I am a prime, and so is my reverse.",
+      "My first digit exceeds the second digit by the square of the even prime.",
+      "My last digit is the least odd prime. Who am I?"
+    ],
+    "answer": "73"
+  },
+  {
+    "number": "13",
+    "clue": [
+      "I am a 2-digit even number.",
+      "Both digits are prime.",
+      "My first digit exceeds the second digit by 5.",
+      "I am six dozen. Who am I?"
+    ],
+    "answer": "72"
+  },
+  {
+    "number": "14",
+    "clue": [
+      "I am the primary building block of integers and range from 0 to 9 in decimal.",
+      "For binary, I am either 0 or 1.",
+      "In another context, I am a finger or a toe.",
+      "I define the modern computer age.",
+      "Who am I?"
+    ],
+    "answer": "Digit"
+  },
+  {
+    "number": "15",
+    "clue": [
+      "I am a two-digit number with identical digits.",
+      "The sum of my digits is 18.",
+      "I am the largest of my kind.",
+      "Each digit is the square of a prime digit.",
+      "Who am I?"
+    ],
+    "answer": "99"
+  },
+  {
+    "number": "16",
+    "clue": [
+      "I am a year in the twenty-first century and I am even.",
+      "The sum of my digits is 9.",
+      "The number formed by my last two digits is a square of a square.",
+      "My third digit is the identity for multiplication and the last two digits sum to seven.",
+      "I was an Olympic year headed for Brazil.",
+      "Who am I?"
+    ],
+    "answer": "2016"
+  },
+  {
+    "number": "18",
+    "clue": [
+      "I am a three-digit number with all digits the same.",
+      "My digits are all prime and odd.",
+      "Any two digits add up to 6, their total is 9 and their product is 27.",
+      "Who am I?"
+    ],
+    "answer": "333"
+  },
+  {
+    "number": "19",
+    "clue": [
+      "I am a single digit odd prime number.",
+      "My square is a single digit, my cube is two digits.",
+      "The sum of the digits of my cube is equal to my square.",
+      "I am a fraction of a dozen. Who am I?"
+    ],
+    "answer": "3"
+  },
+  {
+    "number": "20",
+    "clue": [
+      "I am a three-digit number between 500 and 600.",
+      "I am an odd exact square.",
+      "My last digit is an exact square.",
+      "My second digit is the base of the binary system.",
+      "Who am I?"
+    ],
+    "answer": "529"
+  },
+  {
+    "number": "21",
+    "clue": [
+      "I am a single digit number.",
+      "I am an odd number and also a prime.",
+      "Any number ending in zero is divisible by me.",
+      "When I am raised to power 4, the result is 625.",
+      "I am one less than a half dozen. Who am I?"
+    ],
+    "answer": "5"
+  },
+  {
+    "number": "22",
+    "clue": [
+      "I am some kind of a notation used to represent a decimal number.",
+      "The decimal number is expressed as a product of a number between 1 and 10 and a decimal exponential.",
+      "A huge number is thus very simply expressed.",
+      "There is something supposedly scientific about me.",
+      "Who am I?"
+    ],
+    "answer": "SCIENTIFIC NOTATION"
+  },
+  {
+    "number": "23",
+    "clue": [
+      "I am a natural number.",
+      "I have divisors apart from myself and 1.",
+      "You can say I am a product of primes.",
+      "I have at least two prime factors.",
+      "An example of me is 6.",
+      "I am definitely not a prime. Who am I?"
+    ],
+    "answer": "COMPOSITE NUMBER"
+  },
+  {
+    "number": "24",
+    "clue": [
+      "I am a three-digit number between 500 and 600.",
+      "I am an exact square and divisible by 9.",
+      "I am an even integer.",
+      "My digits are consecutive integers slightly reshuffled.",
+      "One deducted from me gives a number a quarter of a century short of 600.",
+      "Who am I?"
+    ],
+    "answer": "576"
+  },
+  {
+    "number": "25",
+    "clue": [
+      "I am a number with a mixed feeling about me.",
+      "Part of me is whole and part is a fraction.",
+      "An example of me is 3½.",
+      "You can view me as a mixture of a whole number and a fraction.",
+      "Who am I?"
+    ],
+    "answer": "MIXED NUMBER"
+  },
+  {
+    "number": "26",
+    "clue": [
+      "I am a two-digit number less than 20.",
+      "I am odd and I have no other factors apart from myself and 1.",
+      "The sum of my digits is an exact square and their difference is 2.",
+      "On a particular day, I am considered an unlucky number.",
+      "Who am I?"
+    ],
+    "answer": "13"
+  },
+  {
+    "number": "27",
+    "clue": [
+      "I have different types: natural, whole, positive or negative.",
+      "I am the basic building block of Mathematics.",
+      "I can be rational or irrational, terminating or repeating.",
+      "You can locate me on a line bearing my name.",
+      "Who am I?"
+    ],
+    "answer": "REAL NUMBER"
+  },
+  {
+    "number": "28",
+    "clue": [
+      "I am a two-digit even number.",
+      "The sum of my digits is 10 and their difference is an even prime.",
+      "I am both a square and a cube.",
+      "As the square of a cube, my primary base is 2.",
+      "Who am I?"
+    ],
+    "answer": "64"
+  },
+  {
+    "number": "29",
+    "clue": [
+      "There is really nothing improper about me.",
+      "I am a fraction whose numerator exceeds the denominator.",
+      "I am not a mixed number.",
+      "An example of me is 7/3.",
+      "Who am I?"
+    ],
+    "answer": "IMPROPER FRACTION"
+  },
+  {
+    "number": "30",
+    "clue": [
+      "I am in the take-away business.",
+      "I am an arithmetical operation with no identity.",
+      "I result in a difference and am the reverse of addition.",
+      "Part of me is a TRACTION.",
+      "Who am I?"
+    ],
+    "answer": "SUBTRACTION"
+  },
+  {
+    "number": "31",
+    "clue": [
+      "I am a three-digit number between 100 and 200.",
+      "I am an even exact square.",
+      "The sum of my digits is 16.",
+      "Who am I?"
+    ],
+    "answer": "196"
+  },
+  {
+    "number": "32",
+    "clue": [
+      "I am a two-digit number between 25 and 45.",
+      "The sum of my digits is 10 and their difference is a square.",
+      "I am a prime and my reverse is also a prime.",
+      "Who am I?"
+    ],
+    "answer": "37"
+  },
+  {
+    "number": "33",
+    "clue": [
+      "I am a fraction but not an ordinary one.",
+      "My numerator or denominator or both are fractional.",
+      "An example of me is ¾ / (1/3 + 1/2).",
+      "Who am I?"
+    ],
+    "answer": "COMPLEX FRACTION"
+  },
+  {
+    "number": "34",
+    "clue": [
+      "I am a two-digit prime number.",
+      "I am 3 short of a score.",
+      "The sum of my digits is a cube of an even prime.",
+      "I am five more than a dozen.",
+      "Who am I?"
+    ],
+    "answer": "17"
+  },
+  {
+    "number": "35",
+    "clue": [
+      "I am a two-digit square.",
+      "I am also a square of a square.",
+      "I am an odd number.",
+      "The sum of my digits is an odd square.",
+      "Who am I?"
+    ],
+    "answer": "81"
+  },
+  {
+    "number": "36",
+    "clue": [
+      "I am a three-digit odd number between 700 and 800.",
+      "I am a square and a cube.",
+      "Three plays a prominent role in my base.",
+      "The number formed by my first two digits is six dozen.",
+      "My last digit is an exact square.",
+      "Who am I?"
+    ],
+    "answer": "729"
+  },
+  {
+    "number": "37",
+    "clue": [
+      "I am a three-digit number less than 500.",
+      "I am three of a kind and divisible by 9.",
+      "The sum of my first two digits equals the sum of the last two.",
+      "The difference between any two digits is zero.",
+      "Who am I?"
+    ],
+    "answer": "333"
+  },
+  {
+    "number": "38",
+    "clue": [
+      "I am a three-digit number with consecutive natural digits.",
+      "The sum of my digits is 6.",
+      "My digits include an identity and two prime numbers, one of which is even.",
+      "My middle digit is the mean of my first and third digits.",
+      "Who am I?"
+    ],
+    "answer": "123"
+  },
+  {
+    "number": "39",
+    "clue": [
+      "I am a four-digit number with distinct even digits.",
+      "My first digit is a cube and the second is a prime.",
+      "My last three digits are consecutive even numbers.",
+      "My third digit is a square and my last digit is thrice the second.",
+      "Who am I?"
+    ],
+    "answer": "8246"
+  },
+  {
+    "number": "40",
+    "clue": [
+      "I am a two-digit odd number.",
+      "I have two prime factors with sum 16 and difference 6.",
+      "My digits are an identical pair summing to 10.",
+      "I appear in the five and eleven times tables.",
+      "Who am I?"
+    ],
+    "answer": "55"
+  },
+  {
+    "number": "41",
+    "clue": [
+      "I am a three-digit number between 100 and 200.",
+      "My first digit is the identity for multiplication.",
+      "My last two digits form an odd square.",
+      "I am an exact cube and divide numbers between 100 and 200 in a 1:3 ratio.",
+      "The sum of my digits is 8.",
+      "Who am I?"
+    ],
+    "answer": "125"
+  },
+  {
+    "number": "42",
+    "clue": [
+      "I am a number between 1 and 10.",
+      "In binary, my last digit is 0.",
+      "I am an exact square and also the sum and product of a prime with itself.",
+      "Who am I?"
+    ],
+    "answer": "4"
+  },
+  {
+    "number": "43",
+    "clue": [
+      "I am a three-digit odd number with digits from two consecutive integers.",
+      "My digits are binomial coefficients.",
+      "I am a square of another set of binomial coefficients.",
+      "My first and last digits are identical and an identity.",
+      "The sum of my digits is 4.",
+      "Who am I?"
+    ],
+    "answer": "121"
+  },
+  {
+    "number": "44",
+    "clue": [
+      "I am a three-digit even number.",
+      "My first digit is the sum of the roots of x² – 3x + 5 = 0.",
+      "My second digit is the product of the roots of the same equation.",
+      "My last digit is the difference of my first two digits.",
+      "Who am I?"
+    ],
+    "answer": "352"
+  },
+  {
+    "number": "45",
+    "clue": [
+      "I am a three-digit number between 100 and 200.",
+      "My second digit is the product of two prime numbers.",
+      "My last digit is the square of an odd prime digit.",
+      "I am an exact square and my first two digits form a square.",
+      "The sum of my digits is also a square.",
+      "Who am I?"
+    ],
+    "answer": "169"
+  },
+  {
+    "number": "46",
+    "clue": [
+      "I am a line of great importance to Arithmetic.",
+      "I represent the geometry of a number system.",
+      "Each point on me represents a number.",
+      "I separate positives and negatives with a unique origin point.",
+      "I include all rational and irrational numbers.",
+      "Who am I?"
+    ],
+    "answer": "NUMBER LINE"
+  },
+  {
+    "number": "47",
+    "clue": [
+      "I am an undesirable response to a request.",
+      "I am important in photography and the reverse image that gets developed.",
+      "I am the additive inverse of a positive real number.",
+      "The charge of an electron is an example of me.",
+      "I exist on the number line to the left of the origin.",
+      "Who am I?"
+    ],
+    "answer": "NEGATIVE"
+  },
+  {
+    "number": "48",
+    "clue": [
+      "I am a four-digit even number representing a year in the second half of the 21st century.",
+      "The number from my last two digits is a square.",
+      "I am divisible by 8.",
+      "The sum of my digits is 12.",
+      "Who am I?"
+    ],
+    "answer": "2064"
+  },
+  {
+    "number": "49",
+    "clue": [
+      "I am a four-digit odd number.",
+      "My fourth digit is a square and my second digit is its base.",
+      "My first digit is an identity.",
+      "My third digit is the mean of my second and last digits.",
+      "Who am I?"
+    ],
+    "answer": "1369"
+  },
+  {
+    "number": "50",
+    "clue": [
+      "You may find me with a chart.",
+      "In a way, I am a ratio and my biblical approximation is three.",
+      "I am associated with solids having circular cross-sections.",
+      "I am the ratio of a circle’s perimeter to its diameter.",
+      "If you get this right, you deserve a piece of the pie.",
+      "Who am I?"
+    ],
+    "answer": "π"
+  },
+  {
+    "number": "52",
+    "clue": [
+      "Without me, it will be a mathematical jungle out there.",
+      "I ensure we all arrive at the same answer in a numerical calculation.",
+      "I am a rule to avoid confusion in arithmetical operations.",
+      "Exponentials are evaluated first under my rule.",
+      "Multiplication and division come before addition and subtraction.",
+      "I ensure some order in numerical operations. Who am I?"
+    ],
+    "answer": "ORDER OF OPERATIONS"
+  },
+  {
+    "number": "53",
+    "clue": [
+      "I am a four-digit odd number.",
+      "My last digit is an exact square.",
+      "Squaring my second digit gives my last digit.",
+      "I reflect perfectly in the middle.",
+      "Forward or backward, I am the same.",
+      "My first digit is the same as my last digit. Who am I?"
+    ],
+    "answer": "9339"
+  },
+  {
+    "number": "54",
+    "clue": [
+      "I am a three-digit number between 100 and 200.",
+      "The product of my digits is a 2-digit odd cube.",
+      "My digits are distinct and sum to 13.",
+      "My last digit is an exact square.",
+      "My digits form an increasing exponential sequence.",
+      "Who am I?"
+    ],
+    "answer": "139"
+  },
+  {
+    "number": "55",
+    "clue": [
+      "I am a 3-digit number between 200 and 250.",
+      "I am an odd number and an exact exponential.",
+      "My digit sum is a single-digit odd square.",
+      "As an exponential, 7 and 3 are involved.",
+      "To be precise, I am the cube of 7.",
+      "Who am I?"
+    ],
+    "answer": "343"
+  },
+  {
+    "number": "56",
+    "clue": [
+      "I am a three-digit number between 450 and 550.",
+      "My first and last digits are prime and the same.",
+      "My second digit is an exact square.",
+      "The sum of my digits is 14.",
+      "Who am I?"
+    ],
+    "answer": "545"
+  },
+  {
+    "number": "57",
+    "clue": [
+      "I am a three-digit odd number.",
+      "If reversed, I become an even number.",
+      "My first and last digits are squares.",
+      "My second digit is a cube.",
+      "Who am I?"
+    ],
+    "answer": "489"
+  },
+  {
+    "number": "58",
+    "clue": [
+      "I am a 3-digit odd number between 400 and 500.",
+      "I am an exact square.",
+      "My digit sum is a single-digit odd square.",
+      "My last digit is an identity.",
+      "My first and second digits are the same.",
+      "Who am I?"
+    ],
+    "answer": "441"
+  },
+  {
+    "number": "59",
+    "clue": [
+      "I am a 3-digit odd number between 550 and 650.",
+      "I am an exact square.",
+      "My first digit is even.",
+      "My second digit is an even prime.",
+      "My last two digits form a square.",
+      "Who am I?"
+    ],
+    "answer": "625"
+  },
+  {
+    "number": "60",
+    "clue": [
+      "I am a two-digit number.",
+      "I am an exact square and the largest of my kind.",
+      "I am even and hence not 81.",
+      "Who am I?"
+    ],
+    "answer": "64"
+  },
+  {
+    "number": "61",
+    "clue": [
+      "I have no limits or boundaries.",
+      "I am greater than any arbitrarily large number.",
+      "I am not really a number.",
+      "I am unlimited in spatial extent.",
+      "Part of me is called finite, but I am not.",
+      "Who am I?"
+    ],
+    "answer": "INFINITE"
+  },
+  {
+    "number": "62",
+    "clue": [
+      "I am a 3-digit odd number.",
+      "My first and last digits are identities.",
+      "The sum of my digits is 8.",
+      "Forward or backward, I remain the same.",
+      "Who am I?"
+    ],
+    "answer": "161"
+  },
+  {
+    "number": "63",
+    "clue": [
+      "I am a type of whole number.",
+      "Every integer can be uniquely factorized in terms of me.",
+      "I am the ultimate divisor of integers.",
+      "I have only two divisors: 1 and myself.",
+      "I divide only myself and 1.",
+      "Who am I?"
+    ],
+    "answer": "PRIME NUMBER"
+  },
+  {
+    "number": "64",
+    "clue": [
+      "I am a 3-digit odd number.",
+      "My digits include an identity and two squares.",
+      "My first digit is a square.",
+      "The sum of my digits is 14.",
+      "In Nigeria, I represent a law against financial crime.",
+      "Who am I?"
+    ],
+    "answer": "419"
+  },
+  {
+    "number": "65",
+    "clue": [
+      "I am a 3-digit odd number.",
+      "All my digits are prime numbers.",
+      "Their sum is 15.",
+      "They form an increasing linear sequence.",
+      "Each digit differs from the next by 2.",
+      "Who am I?"
+    ],
+    "answer": "357"
+  },
+  {
+    "number": "66",
+    "clue": [
+      "I am a 4-digit odd number divisible by 5.",
+      "My first digit is 2 more than my last.",
+      "My second and third digits are both squares.",
+      "My second digit is odd, third is even.",
+      "Who am I?"
+    ],
+    "answer": "7945"
+  },
+  {
+    "number": "67",
+    "clue": [
+      "I am something to be reckoned with.",
+      "I divide integers and polynomials.",
+      "I also play roles in biology and chemistry.",
+      "I can be a substance or an influencer.",
+      "I am an integer divisor.",
+      "Who am I?"
+    ],
+    "answer": "FACTOR"
+  },
+  {
+    "number": "68",
+    "clue": [
+      "I am a single-digit decimal number.",
+      "My square is the reverse of twice me.",
+      "A number is divisible by me if the sum of its digits is.",
+      "I am a square and an odd number.",
+      "Who am I?"
+    ],
+    "answer": "9"
+  },
+  {
+    "number": "69",
+    "clue": [
+      "I am a 3-digit odd number.",
+      "The sum of my first and last digits is twice my second digit.",
+      "My second digit is the product of 2 and 3.",
+      "My last digit is the square of my first.",
+      "All my digits are multiples of 3 and form a sequence.",
+      "Who am I?"
+    ],
+    "answer": "369"
+  },
+  {
+    "number": "70",
+    "clue": [
+      "I am a rough value.",
+      "I am nearly correct but not exact.",
+      "I am an estimation of a number.",
+      "I may come from rounding.",
+      "Who am I?"
+    ],
+    "answer": "APPROXIMATION"
+  },
+  {
+    "number": "71",
+    "clue": [
+      "I am a 3-digit odd number.",
+      "My digits form a decreasing exponential sequence.",
+      "My last digit is an identity.",
+      "All my digits are odd.",
+      "My first digit is the square of my second.",
+      "Who am I?"
+    ],
+    "answer": "931"
+  },
+  {
+    "number": "72",
+    "clue": [
+      "I am a 4-digit even natural number in the lower half of the 21st century.",
+      "The sum of my digits is an odd square digit.",
+      "My last digit is twice the sum of my first three digits.",
+      "My third digit is a multiplicative identity.",
+      "The number formed by my last two digits is a square < 20.",
+      "Who am I?"
+    ],
+    "answer": "2016"
+  },
+  {
+    "number": "73",
+    "clue": [
+      "I am a point, not a binary operation.",
+      "I’m used in the decimal form of numbers.",
+      "I separate integer and fractional parts.",
+      "I am a type of point.",
+      "Still don’t get the point?",
+      "Who am I?"
+    ],
+    "answer": "DECIMAL POINT"
+  }
+]
+

@@ -1,0 +1,49 @@
+[
+  {
+    "number": "1",
+    "clue": [
+      "Part of me can be found in a chemistry lab by combining different elements.",
+      "I am a combination of two inequalities.",
+      "My solution set is the intersection or union of two sets.",
+      "An example of me is ‘2x + 1 > 5 and 3x - 5 < 25’.",
+      "To solve me, solve the component inequalities.",
+      "Find their intersection or union as appropriate."
+    ],
+    "answer": "COMPOUND INEQUALITY"
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am the mathematics of an unfair world.",
+      "Less than, greater than feature prominently in my activities.",
+      "I can have an infinite number of solutions.",
+      "My nearest cousin is an equation.",
+      "Who am I?"
+    ],
+    "answer": "INEQUALITY"
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I am a mathematical relation.",
+      "I am popular with numbers.",
+      "With me every number is related to itself and nothing else.",
+      "With me, two numbers are related if their difference is zero.",
+      "Equity and fairness are my hallmark.",
+      "Who am I?"
+    ],
+    "answer": "EQUALITY"
+  },
+  {
+    "number": "4",
+    "clue": [
+      "I am many things to different people.",
+      "In a way I am a root.",
+      "I am a set of numbers or values that satisfy an equation.",
+      "I also satisfy an inequality.",
+      "I am an answer to a problem.",
+      "I am also a homogeneous mixture of two or more substances."
+    ],
+    "answer": "SOLUTION"
+  }
+]

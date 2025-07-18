@@ -1,0 +1,72 @@
+[
+  {
+    "number": "1",
+    "clue": [
+      "I am a number computed from the coefficients of a quadratic equation.",
+      "I am associated with the roots of a quadratic equation.",
+      "When I am positive, the equation has two real roots.",
+      "When I vanish, the equation has exactly one real root.",
+      "When I am negative, the equation has no real root.",
+      "My name suggests I discriminate somehow."
+    ],
+    "answer": "DISCRIMINANT"
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am a process for solving a quadratic equation.",
+      "Factorization is definitely out of the window.",
+      "I give rise to the almighty quadratic formula.",
+      "I involve finding a complete square.",
+      "Who am I?"
+    ],
+    "answer": "COMPLETING THE SQUARE"
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I am a formula.",
+      "Formulas are used to solve problems in Mathematics and Science.",
+      "I am an algorithm for solving an equation.",
+      "I am quite a famous one.",
+      "I am a formula for solving a quadratic equation.",
+      "Who am I?"
+    ],
+    "answer": "QUADRATIC FORMULA"
+  },
+  {
+    "number": "4",
+    "clue": [
+      "I am a process in Mathematics.",
+      "I am generally associated with quadratic expressions.",
+      "I am not factorization.",
+      "I am used to derive the quadratic formula.",
+      "I can be used to obtain the vertex of a quadratic curve.",
+      "My main objective is to obtain an exact square."
+    ],
+    "answer": "COMPLETING THE SQUARE"
+  },
+  {
+    "number": "5",
+    "clue": [
+      "I am a process in Mathematics.",
+      "I am used in solving a quadratic equation.",
+      "I am not factorization.",
+      "I am used in deriving the quadratic formula.",
+      "I involve obtaining a square of a linear term."
+    ],
+    "answer": "COMPLETING THE SQUARE"
+  },
+  {
+    "number": "6",
+    "clue": [
+      "I am a quadratic equation.",
+      "My leading coefficient is an identity.",
+      "My coefficients are integers.",
+      "I have no real roots.",
+      "The sum of my roots is 4.",
+      "The product of my roots is 5."
+    ],
+    "answer": "x² - 4x + 5 = 0"
+  }
+]
