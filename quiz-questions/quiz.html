@@ -35,6 +35,7 @@
     </body>
 </html>
 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +43,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Quiz question page for mathematics topics." />
   <link rel="stylesheet" href="styles.css" />
-  <title>Math Quiz</title>
+  <title class="title">Math Quiz</title>
   <style>
     .overlay {
       position: fixed;
@@ -73,6 +74,16 @@
     #feedbackOverlay.wrong {
       background-color: rgba(128, 0, 0, 0.85); /* red overlay */
     }
+
+    .start-btn {
+      background-color: #4CAF50; /* Green */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
   </style>
 </head>
 <body>
@@ -88,13 +99,13 @@
   <button id="startBtn">Start Quiz</button>
 </div>
 
-<audio id="nsmqAudio" src="../music/nsmq.mp3"></audio>
+<audio id="nsmqAudio" src="../music/nsmq.mp3" loop></audio>
 <audio id="correctSound" src="../music/correct.mp3"></audio>
 <audio id="wrongSound" src="../music/wrong.mp3"></audio>
 
 <div class="quiz-container">
   <button class="home-button"><a href="../index.html">HOME</a></button>
-  <span class="number">QUESTION <span class="fnum">1</span> OF <span class="snum">1</span></span>
+  <span class="number">QUESTION <span class="fnum">1</span> OF <span class="snum">1</span></span><span id="timer">25</span>
 </div>
 
 <div class="question-box" id="questionBox"></div>
@@ -114,6 +125,7 @@
 </div>
 
 <script>
+  /*
 let riddles = [
   {
     clue: [
@@ -145,16 +157,46 @@ let riddles = [
     answer: "QUADRATIC FORMULA"
   }
 ];
+*/
+let riddles = [];
+
+function getTopicFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get('topic'); // e.g., 'algebra'
+}
 
 let currentQuestion = 0;
 let currentClueIndex = 0;
 let score = 0;
+let questionScore = 5;
+let timer;
+let timerDuration = 25; // 25 seconds for each question
 
 document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("startBtn").addEventListener("click", startQuiz);
-  document.getElementById("addClueBtn").addEventListener("click", addClue);
-  document.getElementById("submitBtn").addEventListener("click", submitAnswer);
-});
+
+  const topic = getTopicFromURL();
+  if (!topic) {
+    alert("No topic selected.");
+    return;
+  }
+
+  fetch(`../quiz-questions/questions/${topic}.json`)
+  .then(res => res.json())
+  .then (data => {
+    riddles = data;
+        document.getElementById("startBtn").addEventListener("click", startQuiz);
+        document.getElementById("addClueBtn").addEventListener("click", addClue);
+        document.getElementById("submitBtn").addEventListener("click", submitAnswer);
+
+        // Optional: Show topic name on page
+        document.querySelector(".title").textContent = `${topic.toUpperCase()}`;
+    });
+    })
+
+  .catch(err => {
+      console.error(err);
+      alert("Failed to load quiz questions. Please try again later.");
+    });
 
 function startQuiz() {
   document.getElementById('rulesOverlay').classList.add('hidden');
@@ -163,6 +205,9 @@ function startQuiz() {
 }
 
 function loadQuestion() {
+  questionScore = 5;
+  timerDuration = 25; // Reset timer for each question
+  startTimer(); 
   const questionBox = document.getElementById('questionBox');
   questionBox.innerHTML = '';
   currentClueIndex = 0;
@@ -177,6 +222,22 @@ function loadQuestion() {
   updateAddClueBtn();
   document.getElementById('answer').value = '';
 }
+
+function startTimer() {
+  clearInterval(timer);
+  document.getElementById('timer').textContent = timerDuration;
+
+  timer = setInterval(() => {
+    timerDuration--;
+    document.getElementById('timer').textContent = timerDuration;
+
+    if (timerDuration <= 0) {
+      clearInterval(timer);
+      autoSubmit(); // new function
+    }
+  }, 1000);
+}
+
 
 function updateAddClueBtn() {
   const clues = riddles[currentQuestion].clue;
@@ -196,11 +257,17 @@ function addClue() {
     const questionBox = document.getElementById('questionBox');
     questionBox.innerHTML += `<p class="clue"><span class="clue-num">Clue ${currentClueIndex + 1}:</span> ${clues[currentClueIndex]}</p>`;
     currentClueIndex++;
+
+    // Deduct 1 point for extra clues beyond the initial 3
+    if (currentClueIndex > 3) {
+      questionScore = Math.max(0, questionScore - 1);
+    }
     updateAddClueBtn();
   }
 }
 
 function submitAnswer() {
+  clearInterval(timer); // Stop the timer when submitting
   const userAnswer = document.getElementById('answer').value.trim().toUpperCase();
   const correctAnswer = riddles[currentQuestion].answer.toUpperCase();
   const overlay = document.getElementById('feedbackOverlay');
@@ -216,7 +283,7 @@ function submitAnswer() {
     feedback.textContent = "Correct! Well done.";
     overlay.classList.remove('wrong');
     overlay.classList.add('correct');
-    score++;
+    score += questionScore; // Add score for this question
   } else {
     document.getElementById('wrongSound').play();
     feedback.textContent = `Wrong! The correct answer was: ${correctAnswer}`;
@@ -227,7 +294,37 @@ function submitAnswer() {
   overlay.classList.remove('hidden');
 }
 
+
+function autoSubmit() {
+  document.getElementById('submitBtn').disabled = true;
+  document.getElementById('addClueBtn').disabled = true;
+
+  const userAnswer = document.getElementById('answer').value.trim().toUpperCase();
+  const correctAnswer = riddles[currentQuestion].answer.toUpperCase();
+  const overlay = document.getElementById('feedbackOverlay');
+  const feedback = document.getElementById('feedbackMessage');
+
+  if (userAnswer === correctAnswer) {
+    document.getElementById('correctSound').play();
+    feedback.textContent = "Correct (just in time)!";
+    overlay.classList.remove('wrong');
+    overlay.classList.add('correct');
+    score += questionScore;
+  } else {
+    document.getElementById('wrongSound').play();
+    feedback.textContent = `Time's up! The correct answer was: ${correctAnswer}`;
+    overlay.classList.remove('correct');
+    overlay.classList.add('wrong');
+  }
+
+  overlay.classList.remove('hidden');
+
+   
+}
+
 function nextQuestion() {
+  document.getElementById('submitBtn').disabled = false; // Enable submit button for next question
+  document.getElementById('addClueBtn').disabled = false; // Enable add clue button for next question
   currentQuestion++;
   document.getElementById('feedbackOverlay').classList.add('hidden');
   if (currentQuestion < riddles.length) {
@@ -242,7 +339,7 @@ function showFinalScore() {
   const overlay = document.getElementById('feedbackOverlay');
   const feedback = document.getElementById('feedbackMessage');
 
-  feedback.innerHTML = `Quiz Completed!<br>Your score is ${score} out of ${riddles.length}.`;
+  feedback.innerHTML = `Quiz Completed!<br>Your score is <strong>${score}</strong> out of <strong>${riddles.length *5}</strong>.`;
   overlay.classList.remove('hidden');
 
   // Hide the Next button on final screen
@@ -267,3 +364,6 @@ function showFinalScore() {
 
 </body>
 </html>
+
+
+
