@@ -9,7 +9,8 @@
       "I may have an identity on the set of operations.",
       "Who am I?"
     ],
-    "answer": "BINARY OPERATION"
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "UNION", "FUNCTION", "MAPPING"]
   },
   {
     "number": "2",
@@ -21,7 +22,8 @@
       "For intersection of sets, I am the whole universe.",
       "For addition of real numbers, I am nothing to write home about."
     ],
-    "answer": "IDENTITY"
+    "answer": "IDENTITY",
+    "choices": ["IDENTITY", "UNION", "INVERSE", "OPERATION"]
   },
   {
     "number": "3",
@@ -33,6 +35,7 @@
       "Others are multiplication and division.",
       "Remember I combine two terms at a time."
     ],
-    "answer": "BINARY OPERATION"
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "ARITHMETIC", "EQUATION", "INVERSE OPERATION"]
   }
 ]

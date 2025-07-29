@@ -12,27 +12,21 @@ body {
     margin-top: 80px;
 }
 
-.intro-box{
-    color:#ffffff;
-    padding: 10px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
+
 /* Style for the nav bar */
 .nav-bar {
-    background-color: #a10303; 
-    padding: 10px 20px; 
+    padding: 10px 10px; 
     position: fixed; 
     top: 0; 
     left: 0; 
     width: 100%; 
     z-index: 1000; 
-    /*
-    display: flex; 
-    justify-content: space-between;  */
-    align-items: center; 
+    align-items: center;
+    
+    background: rgba(200, 200, 200, 0.3); /* light grey with transparency */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px); /* for Safari support */
+    border-bottom: 1px solid rgba(200, 200, 200, 0.4); /* optional subtle border */
 }
 
 /* Style for the search bar */
@@ -41,10 +35,16 @@ body {
     padding: 10px; 
     border-radius: 5px;
     border: 1px solid #ccc;
-    margin-left: 20px; 
+    margin-left: 0px; 
     font-size: 1.3rem;
 }
 
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 13px; 
+}
 
 
 /* Optional: Style for the icons */
@@ -53,7 +53,9 @@ body {
     cursor: pointer; 
 }
 
-
+#user-icon {
+    font-size: 1.9rem; 
+}
 
 
 .container {
@@ -86,10 +88,11 @@ p {
 }
 
 .section-head {
-    font-size: 2.3rem; 
+    font-size: 1.3rem; 
     margin-bottom: 10px;
     color: #333;
 }
+
 
 ul {
     list-style: none;
@@ -101,15 +104,16 @@ ul li {
 
 ul li a {
      color: #171d88;
-     font-size: 1.49rem;
+     font-size: 1.2rem;
      line-height: 1.8;
+     text-decoration: none;
 }
 
 ul li a:hover {
     color: #ad1b08;
+}
     /* Optional: Add a hover effect */
    
-}
 
 footer {
     text-align: center;
@@ -125,7 +129,7 @@ footer {
     }
 
     header h1 {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .question-box {
@@ -133,16 +137,12 @@ footer {
     }
 
     .section-head {
-        font-size: 1.55rem; 
+        font-size: 1.35rem; 
     }
 }
 
 @media (max-width: 380px) {
-  #user-icon{
-    display: none;
-  }
-  
-  .search-container input {
+    .search-container input {
     width: 200px;
     padding: 7px; 
     border-radius: 5px;

@@ -9,7 +9,8 @@
       "Division by me always involves rationalization.",
       "You get the idea? An example of me is 3 + √2. Who am I?"
     ],
-    "answer": "SURD"
+    "answer": "SURD",
+    "choices": ["SURD", "INDEX", "ROOT", "RATIONAL"]
   },
   {
     "number": "2",
@@ -21,6 +22,7 @@
       "For 4, I am 2 and for 49, I am 7.",
       "Who am I?"
     ],
-    "answer": "SQUARE ROOT"
+    "answer": "SQUARE ROOT",
+    "choices": ["SQUARE ROOT", "EXPONENT", "FACTOR", "SURD"]
   }
 ]

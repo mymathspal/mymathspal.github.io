@@ -9,7 +9,8 @@
       "You will find me in a Binomial Expansion.",
       "For the term 10x2y3, I am 10. Who am I?"
     ],
-    "answer": "COEFFICIENT"
+    "answer": "COEFFICIENT",
+    "choices": ["COEFFICIENT", "EXPONENT", "FACTOR", "TERM"]
   },
   {
     "number": "2",
@@ -21,7 +22,8 @@
       "You can say I am a generalized Arithmetic.",
       "Who am I?"
     ],
-    "answer": "ALGEBRA"
+    "answer": "ALGEBRA",
+    "choices": ["ALGEBRA", "ARITHMETIC", "GEOMETRY", "TRIGONOMETRY"]
   },
   {
     "number": "3",
@@ -31,7 +33,8 @@
       "Examples of me are linear and quadratic equations.",
       "Who am I?"
     ],
-    "answer": "ALGEBRAIC EQUATION"
+    "answer": "ALGEBRAIC EQUATION",
+    "choices": ["ALGEBRAIC EQUATION", "IDENTITY", "INEQUALITY", "FORMULA"]
   },
   {
     "number": "4",
@@ -43,7 +46,8 @@
       "For a function y = f(x), I am the letter f.",
       "Who am I?"
     ],
-    "answer": "SYMBOL"
+    "answer": "SYMBOL",
+    "choices": ["SYMBOL", "VARIABLE", "CONSTANT", "OPERATOR"]
   },
   {
     "number": "5",
@@ -55,7 +59,8 @@
       "Two of me add up to a binomial and three of me a trinomial.",
       "I am a single term. Who am I?"
     ],
-    "answer": "MONOMIAL"
+    "answer": "MONOMIAL",
+    "choices": ["MONOMIAL", "BINOMIAL", "TERM", "POLYNOMIAL"]
   },
   {
     "number": "6",
@@ -67,7 +72,8 @@
       "I have something to do with restitution in a collision of particles.",
       "You will find me in a binomial expansion. Who am I?"
     ],
-    "answer": "COEFFICIENT"
+    "answer": "COEFFICIENT",
+    "choices": ["COEFFICIENT", "EXPONENT", "VARIABLE", "CONSTANT"]
   },
   {
     "number": "7",
@@ -79,6 +85,7 @@
       "I am the opposite of Expansion.",
       "Part of me is a Factor and the other part sounds like a Station. Who am I?"
     ],
-    "answer": "FACTORISATION"
+    "answer": "FACTORISATION",
+    "choices": ["FACTORISATION", "EXPANSION", "SIMPLIFICATION", "EVALUATION"]
   }
 ]

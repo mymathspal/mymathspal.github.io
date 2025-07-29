@@ -7,7 +7,13 @@
       "My cardinal number is zero and I am the identity for union of sets.",
       "Remember empty barrels make the most noise. Who am I?"
     ],
-    "answer": "Empty set or Null set"
+    "answer": "Empty set or Null set",
+    "choices": [
+      "Empty set or Null set",
+      "Universal set",
+      "Singleton set",
+      "Complement"
+    ]
   },
   {
     "number": "riddle 2",
@@ -16,7 +22,13 @@
       "I am used to solve problems.",
       "I am used to represent sets, elements and subsets. Who am I?"
     ],
-    "answer": "Venn Diagram"
+    "answer": "Venn Diagram",
+    "choices": [
+      "Venn Diagram",
+      "Bar Graph",
+      "Tree Diagram",
+      "Cartesian Plane"
+    ]
   },
   {
     "number": "riddle 3",
@@ -27,7 +39,13 @@
       "Our intersection is always empty.",
       "Who are we?"
     ],
-    "answer": "Disjoint sets"
+    "answer": "Disjoint sets",
+    "choices": [
+      "Disjoint sets",
+      "Equal sets",
+      "Overlapping sets",
+      "Subset pairs"
+    ]
   },
   {
     "number": "riddle 4",
@@ -39,6 +57,564 @@
       "I am a collection of common elements of two or more sets.",
       "Who am I?"
     ],
-    "answer": "INTERSECTION"
+    "answer": "INTERSECTION",
+    "choices": [
+      "INTERSECTION",
+      "UNION",
+      "DIFFERENCE",
+      "COMPLEMENT"
+    ]
+  },
+  {
+    "number": "1",
+    "clue": [
+      "I am an operation on a non-empty set.",
+      "I involve two objects at a time.",
+      "Examples of me are union and intersection of sets.",
+      "I may be commutative or even associative.",
+      "I may have an identity on the set of operations.",
+      "Who am I?"
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "UNION", "FUNCTION", "MAPPING"]
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am a relation which is true for all values of the variable.",
+      "I am also a means of identification.",
+      "I am associated with binary operations.",
+      "For union of sets, I am an empty barrel which makes the most noise.",
+      "For intersection of sets, I am the whole universe.",
+      "For addition of real numbers, I am nothing to write home about."
+    ],
+    "answer": "IDENTITY",
+    "choices": ["IDENTITY", "UNION", "INVERSE", "OPERATION"]
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I am the stuff Arithmetic is made of.",
+      "I am simply an operation or to be precise a type of operation.",
+      "I combine two terms to produce a third term.",
+      "Examples of me are the arithmetic operations of addition and subtraction.",
+      "Others are multiplication and division.",
+      "Remember I combine two terms at a time."
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "ARITHMETIC", "EQUATION", "INVERSE OPERATION"]
+  },
+    {
+    "number": "riddle 4",
+    "clue": [
+      "I am a binary operation.",
+      "I am in a way a meeting of minds.",
+      "I combine two sets and normally produce a smaller set.",
+      "I am where two curves meet.",
+      "I am a collection of common elements of two or more sets.",
+      "Who am I?"
+    ],
+    "answer": "INTERSECTION",
+    "choices": [
+      "INTERSECTION",
+      "UNION",
+      "DIFFERENCE",
+      "COMPLEMENT"
+    ]
+  },
+  {
+    "number": "1",
+    "clue": [
+      "I am an operation on a non-empty set.",
+      "I involve two objects at a time.",
+      "Examples of me are union and intersection of sets.",
+      "I may be commutative or even associative.",
+      "I may have an identity on the set of operations.",
+      "Who am I?"
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "UNION", "FUNCTION", "MAPPING"]
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am a relation which is true for all values of the variable.",
+      "I am also a means of identification.",
+      "I am associated with binary operations.",
+      "For union of sets, I am an empty barrel which makes the most noise.",
+      "For intersection of sets, I am the whole universe.",
+      "For addition of real numbers, I am nothing to write home about."
+    ],
+    "answer": "IDENTITY",
+    "choices": ["IDENTITY", "UNION", "INVERSE", "OPERATION"]
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I am the stuff Arithmetic is made of.",
+      "I am simply an operation or to be precise a type of operation.",
+      "I combine two terms to produce a third term.",
+      "Examples of me are the arithmetic operations of addition and subtraction.",
+      "Others are multiplication and division.",
+      "Remember I combine two terms at a time."
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "ARITHMETIC", "EQUATION", "INVERSE OPERATION"]
+  },
+    {
+    "number": "riddle 4",
+    "clue": [
+      "I am a binary operation.",
+      "I am in a way a meeting of minds.",
+      "I combine two sets and normally produce a smaller set.",
+      "I am where two curves meet.",
+      "I am a collection of common elements of two or more sets.",
+      "Who am I?"
+    ],
+    "answer": "INTERSECTION",
+    "choices": [
+      "INTERSECTION",
+      "UNION",
+      "DIFFERENCE",
+      "COMPLEMENT"
+    ]
+  },
+  {
+    "number": "1",
+    "clue": [
+      "I am an operation on a non-empty set.",
+      "I involve two objects at a time.",
+      "Examples of me are union and intersection of sets.",
+      "I may be commutative or even associative.",
+      "I may have an identity on the set of operations.",
+      "Who am I?"
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "UNION", "FUNCTION", "MAPPING"]
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am a relation which is true for all values of the variable.",
+      "I am also a means of identification.",
+      "I am associated with binary operations.",
+      "For union of sets, I am an empty barrel which makes the most noise.",
+      "For intersection of sets, I am the whole universe.",
+      "For addition of real numbers, I am nothing to write home about."
+    ],
+    "answer": "IDENTITY",
+    "choices": ["IDENTITY", "UNION", "INVERSE", "OPERATION"]
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I am the stuff Arithmetic is made of.",
+      "I am simply an operation or to be precise a type of operation.",
+      "I combine two terms to produce a third term.",
+      "Examples of me are the arithmetic operations of addition and subtraction.",
+      "Others are multiplication and division.",
+      "Remember I combine two terms at a time."
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "ARITHMETIC", "EQUATION", "INVERSE OPERATION"]
+  },
+    {
+    "number": "riddle 4",
+    "clue": [
+      "I am a binary operation.",
+      "I am in a way a meeting of minds.",
+      "I combine two sets and normally produce a smaller set.",
+      "I am where two curves meet.",
+      "I am a collection of common elements of two or more sets.",
+      "Who am I?"
+    ],
+    "answer": "INTERSECTION",
+    "choices": [
+      "INTERSECTION",
+      "UNION",
+      "DIFFERENCE",
+      "COMPLEMENT"
+    ]
+  },
+  {
+    "number": "1",
+    "clue": [
+      "I am an operation on a non-empty set.",
+      "I involve two objects at a time.",
+      "Examples of me are union and intersection of sets.",
+      "I may be commutative or even associative.",
+      "I may have an identity on the set of operations.",
+      "Who am I?"
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "UNION", "FUNCTION", "MAPPING"]
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am a relation which is true for all values of the variable.",
+      "I am also a means of identification.",
+      "I am associated with binary operations.",
+      "For union of sets, I am an empty barrel which makes the most noise.",
+      "For intersection of sets, I am the whole universe.",
+      "For addition of real numbers, I am nothing to write home about."
+    ],
+    "answer": "IDENTITY",
+    "choices": ["IDENTITY", "UNION", "INVERSE", "OPERATION"]
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I am the stuff Arithmetic is made of.",
+      "I am simply an operation or to be precise a type of operation.",
+      "I combine two terms to produce a third term.",
+      "Examples of me are the arithmetic operations of addition and subtraction.",
+      "Others are multiplication and division.",
+      "Remember I combine two terms at a time."
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "ARITHMETIC", "EQUATION", "INVERSE OPERATION"]
+  },
+    {
+    "number": "riddle 4",
+    "clue": [
+      "I am a binary operation.",
+      "I am in a way a meeting of minds.",
+      "I combine two sets and normally produce a smaller set.",
+      "I am where two curves meet.",
+      "I am a collection of common elements of two or more sets.",
+      "Who am I?"
+    ],
+    "answer": "INTERSECTION",
+    "choices": [
+      "INTERSECTION",
+      "UNION",
+      "DIFFERENCE",
+      "COMPLEMENT"
+    ]
+  },
+  {
+    "number": "1",
+    "clue": [
+      "I am an operation on a non-empty set.",
+      "I involve two objects at a time.",
+      "Examples of me are union and intersection of sets.",
+      "I may be commutative or even associative.",
+      "I may have an identity on the set of operations.",
+      "Who am I?"
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "UNION", "FUNCTION", "MAPPING"]
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am a relation which is true for all values of the variable.",
+      "I am also a means of identification.",
+      "I am associated with binary operations.",
+      "For union of sets, I am an empty barrel which makes the most noise.",
+      "For intersection of sets, I am the whole universe.",
+      "For addition of real numbers, I am nothing to write home about."
+    ],
+    "answer": "IDENTITY",
+    "choices": ["IDENTITY", "UNION", "INVERSE", "OPERATION"]
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I am the stuff Arithmetic is made of.",
+      "I am simply an operation or to be precise a type of operation.",
+      "I combine two terms to produce a third term.",
+      "Examples of me are the arithmetic operations of addition and subtraction.",
+      "Others are multiplication and division.",
+      "Remember I combine two terms at a time."
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "ARITHMETIC", "EQUATION", "INVERSE OPERATION"]
+  }
+  ,  {
+    "number": "riddle 4",
+    "clue": [
+      "I am a binary operation.",
+      "I am in a way a meeting of minds.",
+      "I combine two sets and normally produce a smaller set.",
+      "I am where two curves meet.",
+      "I am a collection of common elements of two or more sets.",
+      "Who am I?"
+    ],
+    "answer": "INTERSECTION",
+    "choices": [
+      "INTERSECTION",
+      "UNION",
+      "DIFFERENCE",
+      "COMPLEMENT"
+    ]
+  },
+  {
+    "number": "1",
+    "clue": [
+      "I am an operation on a non-empty set.",
+      "I involve two objects at a time.",
+      "Examples of me are union and intersection of sets.",
+      "I may be commutative or even associative.",
+      "I may have an identity on the set of operations.",
+      "Who am I?"
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "UNION", "FUNCTION", "MAPPING"]
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am a relation which is true for all values of the variable.",
+      "I am also a means of identification.",
+      "I am associated with binary operations.",
+      "For union of sets, I am an empty barrel which makes the most noise.",
+      "For intersection of sets, I am the whole universe.",
+      "For addition of real numbers, I am nothing to write home about."
+    ],
+    "answer": "IDENTITY",
+    "choices": ["IDENTITY", "UNION", "INVERSE", "OPERATION"]
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I am the stuff Arithmetic is made of.",
+      "I am simply an operation or to be precise a type of operation.",
+      "I combine two terms to produce a third term.",
+      "Examples of me are the arithmetic operations of addition and subtraction.",
+      "Others are multiplication and division.",
+      "Remember I combine two terms at a time."
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "ARITHMETIC", "EQUATION", "INVERSE OPERATION"]
+  },
+    {
+    "number": "riddle 4",
+    "clue": [
+      "I am a binary operation.",
+      "I am in a way a meeting of minds.",
+      "I combine two sets and normally produce a smaller set.",
+      "I am where two curves meet.",
+      "I am a collection of common elements of two or more sets.",
+      "Who am I?"
+    ],
+    "answer": "INTERSECTION",
+    "choices": [
+      "INTERSECTION",
+      "UNION",
+      "DIFFERENCE",
+      "COMPLEMENT"
+    ]
+  },
+  {
+    "number": "1",
+    "clue": [
+      "I am an operation on a non-empty set.",
+      "I involve two objects at a time.",
+      "Examples of me are union and intersection of sets.",
+      "I may be commutative or even associative.",
+      "I may have an identity on the set of operations.",
+      "Who am I?"
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "UNION", "FUNCTION", "MAPPING"]
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am a relation which is true for all values of the variable.",
+      "I am also a means of identification.",
+      "I am associated with binary operations.",
+      "For union of sets, I am an empty barrel which makes the most noise.",
+      "For intersection of sets, I am the whole universe.",
+      "For addition of real numbers, I am nothing to write home about."
+    ],
+    "answer": "IDENTITY",
+    "choices": ["IDENTITY", "UNION", "INVERSE", "OPERATION"]
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I am the stuff Arithmetic is made of.",
+      "I am simply an operation or to be precise a type of operation.",
+      "I combine two terms to produce a third term.",
+      "Examples of me are the arithmetic operations of addition and subtraction.",
+      "Others are multiplication and division.",
+      "Remember I combine two terms at a time."
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "ARITHMETIC", "EQUATION", "INVERSE OPERATION"]
+  }
+  ,  {
+    "number": "riddle 4",
+    "clue": [
+      "I am a binary operation.",
+      "I am in a way a meeting of minds.",
+      "I combine two sets and normally produce a smaller set.",
+      "I am where two curves meet.",
+      "I am a collection of common elements of two or more sets.",
+      "Who am I?"
+    ],
+    "answer": "INTERSECTION",
+    "choices": [
+      "INTERSECTION",
+      "UNION",
+      "DIFFERENCE",
+      "COMPLEMENT"
+    ]
+  },
+  {
+    "number": "1",
+    "clue": [
+      "I am an operation on a non-empty set.",
+      "I involve two objects at a time.",
+      "Examples of me are union and intersection of sets.",
+      "I may be commutative or even associative.",
+      "I may have an identity on the set of operations.",
+      "Who am I?"
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "UNION", "FUNCTION", "MAPPING"]
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am a relation which is true for all values of the variable.",
+      "I am also a means of identification.",
+      "I am associated with binary operations.",
+      "For union of sets, I am an empty barrel which makes the most noise.",
+      "For intersection of sets, I am the whole universe.",
+      "For addition of real numbers, I am nothing to write home about."
+    ],
+    "answer": "IDENTITY",
+    "choices": ["IDENTITY", "UNION", "INVERSE", "OPERATION"]
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I am the stuff Arithmetic is made of.",
+      "I am simply an operation or to be precise a type of operation.",
+      "I combine two terms to produce a third term.",
+      "Examples of me are the arithmetic operations of addition and subtraction.",
+      "Others are multiplication and division.",
+      "Remember I combine two terms at a time."
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "ARITHMETIC", "EQUATION", "INVERSE OPERATION"]
+  }
+  ,  {
+    "number": "riddle 4",
+    "clue": [
+      "I am a binary operation.",
+      "I am in a way a meeting of minds.",
+      "I combine two sets and normally produce a smaller set.",
+      "I am where two curves meet.",
+      "I am a collection of common elements of two or more sets.",
+      "Who am I?"
+    ],
+    "answer": "INTERSECTION",
+    "choices": [
+      "INTERSECTION",
+      "UNION",
+      "DIFFERENCE",
+      "COMPLEMENT"
+    ]
+  },
+  {
+    "number": "1",
+    "clue": [
+      "I am an operation on a non-empty set.",
+      "I involve two objects at a time.",
+      "Examples of me are union and intersection of sets.",
+      "I may be commutative or even associative.",
+      "I may have an identity on the set of operations.",
+      "Who am I?"
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "UNION", "FUNCTION", "MAPPING"]
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am a relation which is true for all values of the variable.",
+      "I am also a means of identification.",
+      "I am associated with binary operations.",
+      "For union of sets, I am an empty barrel which makes the most noise.",
+      "For intersection of sets, I am the whole universe.",
+      "For addition of real numbers, I am nothing to write home about."
+    ],
+    "answer": "IDENTITY",
+    "choices": ["IDENTITY", "UNION", "INVERSE", "OPERATION"]
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I am the stuff Arithmetic is made of.",
+      "I am simply an operation or to be precise a type of operation.",
+      "I combine two terms to produce a third term.",
+      "Examples of me are the arithmetic operations of addition and subtraction.",
+      "Others are multiplication and division.",
+      "Remember I combine two terms at a time."
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "ARITHMETIC", "EQUATION", "INVERSE OPERATION"]
+  },
+    {
+    "number": "riddle 4",
+    "clue": [
+      "I am a binary operation.",
+      "I am in a way a meeting of minds.",
+      "I combine two sets and normally produce a smaller set.",
+      "I am where two curves meet.",
+      "I am a collection of common elements of two or more sets.",
+      "Who am I?"
+    ],
+    "answer": "INTERSECTION",
+    "choices": [
+      "INTERSECTION",
+      "UNION",
+      "DIFFERENCE",
+      "COMPLEMENT"
+    ]
+  },
+  {
+    "number": "1",
+    "clue": [
+      "I am an operation on a non-empty set.",
+      "I involve two objects at a time.",
+      "Examples of me are union and intersection of sets.",
+      "I may be commutative or even associative.",
+      "I may have an identity on the set of operations.",
+      "Who am I?"
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "UNION", "FUNCTION", "MAPPING"]
+  },
+  {
+    "number": "2",
+    "clue": [
+      "I am a relation which is true for all values of the variable.",
+      "I am also a means of identification.",
+      "I am associated with binary operations.",
+      "For union of sets, I am an empty barrel which makes the most noise.",
+      "For intersection of sets, I am the whole universe.",
+      "For addition of real numbers, I am nothing to write home about."
+    ],
+    "answer": "IDENTITY",
+    "choices": ["IDENTITY", "UNION", "INVERSE", "OPERATION"]
+  },
+  {
+    "number": "3",
+    "clue": [
+      "I am the stuff Arithmetic is made of.",
+      "I am simply an operation or to be precise a type of operation.",
+      "I combine two terms to produce a third term.",
+      "Examples of me are the arithmetic operations of addition and subtraction.",
+      "Others are multiplication and division.",
+      "Remember I combine two terms at a time."
+    ],
+    "answer": "BINARY OPERATION",
+    "choices": ["BINARY OPERATION", "ARITHMETIC", "EQUATION", "INVERSE OPERATION"]
   }
 ]
