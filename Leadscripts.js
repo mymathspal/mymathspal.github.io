@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
     const leaderboardData = [
-        { name: 'Alice', xp: 950, school: 'Greenwood High' },
-        { name: 'Bob', xp: 870, school: 'Sunset Academy' },
         { name: 'Charlie', xp: 800, school: 'Riverdale School' },
         { name: 'David', xp: 700, school: 'Mountain View Academy' },
         { name: 'David', xp: 700, school: 'Mountain View Academy' },
