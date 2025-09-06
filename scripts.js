@@ -96,6 +96,9 @@ function startTimer() {
     document.getElementById("timer").textContent = timerDuration;
     if (timerDuration <= 0) {
       clearInterval(timer);
+
+      document.getElementById("choiceOverlay").classList.add("hidden");
+
       autoSubmit(); // Auto-submit when time runs out
     }
   }, 1000);
@@ -169,6 +172,7 @@ function submitAnswer(selected) {
   document.getElementById(isCorrect ? "correctSound" : "wrongSound").play();
 
   message.textContent = isCorrect ? "Correct! Well done." : `Wrong! The correct answer was: ${correct}`;
+  message.style.fontSize = "1.2rem";
   overlay.classList.toggle("correct", isCorrect);
   overlay.classList.toggle("wrong", !isCorrect);
   overlay.classList.remove("hidden");
@@ -220,8 +224,8 @@ function showFinalScore() {
   document.getElementById("nextBtn").style.display = "none";
   const endButtons = document.getElementById("endButtons");
   endButtons.style.display = "flex";
-  endButtons.style.flexDirection = "column";
-  endButtons.style.gap = "12px";
+  endButtons.style.flexDirection = "row";
+  endButtons.style.gap = "25px";
 
   const addClueBtn = document.getElementById("addClueBtn");
   addClueBtn.disabled = true;

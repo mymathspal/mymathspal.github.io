@@ -132,9 +132,18 @@ footer {
             border: none;
             padding: 15px 30px;
             border-radius: 8px;
+            margin: 40px 0;
                   
         }
+.logout #logout-button a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
+h3:not(.section-head){
+    color: #ffffff;
+    margin-top: 30px;
+}
     
 
 #questionBox,p , .quiz-container{
@@ -155,6 +164,16 @@ a :not(ul li a) {
 .home-button {
     background-color: #810f0f;
     border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.home-button a{
+    color: #ffffff;
+    text-decoration: none;
 }
    
 .number{
@@ -188,13 +207,24 @@ a :not(ul li a) {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-p{
+#timer{
+    background-color: #0c1050;
+    color: #ffffff;
+    font-size: 1.14rem;
+    float: right;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+
+/* p{
     background-color: #F0F0F0;
     font-size: 1.15rem;
     background: #000000;
     background: linear-gradient(90deg, rgba(209, 208, 217, 1) 79%, rgba(150, 150, 171, 1) 100%, rgba(0, 212, 255, 1) 100%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+} */
 
 
 .clue-btn, .submit{
@@ -253,14 +283,20 @@ p{
       background-color: rgba(128, 0, 0, 0.85); /* red overlay */
     }
 
-    .start-btn {
-      background-color: #4CAF50; /* Green */
+    .start-btn, #nextBtn, #startBtn {
+      background-color: #134a15; /* Green */
       color: white;
       padding: 10px 20px;
       border: none;
       border-radius: 5px;
       cursor: pointer;
+      font-size: 1.13rem;
     }
+
+.replay{
+     background-color: #810f0f;
+}
+    
 
 
 #choicesContainer {
@@ -273,7 +309,7 @@ p{
 .choice-btn {
   padding: 12px 20px;
   font-size: 16px;
-  background-color: #3498db;
+  background-color: #34db7f;
   color: white;
   border: none;
   border-radius: 8px;
@@ -281,7 +317,7 @@ p{
 }
 
 .choice-btn:hover {
-  background-color: #2980b9;
+  background-color: #5cbc84;
 }
    
 
